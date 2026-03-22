@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "name": "add() works",
+      "setup": "npm install",
+      "run": "npm test -- -t \"add()\"",
+      "timeout": 20000,
+      "points": 2
+    },
+    {
+      "name": "isEven() works",
+      "run": "npm test -- -t \"isEven()\"",
+      "timeout": 20000,
+      "points": 2
+    },
+    {
+      "name": "maxInArray() works",
+      "run": "npm test -- -t \"maxInArray()\"",
+      "timeout": 20000,
+      "points": 3
+    },
+    {
+      "name": "reverseString() works",
+      "run": "npm test -- -t \"reverseString()\"",
+      "timeout": 20000,
+      "points": 3
+    }
+  ]
+}
